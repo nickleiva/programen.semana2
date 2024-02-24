@@ -1,0 +1,137 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 10px;
+}
+.back_menu {
+  background-image: url("images/sample_menu_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+  margin-top: 110px;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+.dc_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.dc_section p {
+  width: 60%;
+}
+
+.dc_section img {
+  width: 35%;
+  margin-right: 5%; 
+}
+
+
+
+
+
+.menu_reco {
+  display: flex;
+  padding: 0 150px;
+
+}
+.menu_reco ul {
+  display: flex;
+  max-width: 1100px;
+  max-height: 300px;
+  text-align: left;
+  
+}
+ .menu_reco ul li{
+  width: 49%;
+  background-color: #fff;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+ }
+ .menu_reco ul li .menu {
+  width: 45%;
+  padding: 10px;
+ }
+.menu_reco ul li img{
+width: 100%;
+height: 100%;
+}
