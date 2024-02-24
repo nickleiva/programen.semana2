@@ -106,9 +106,9 @@ div,li {
 
 
 
-
-
 .menu_reco {
+  max-width: 1100px;
+  max-height: 300px;
   display: flex;
   padding: 0 150px;
 
@@ -120,18 +120,117 @@ div,li {
   text-align: left;
   
 }
- .menu_reco ul li{
+.menu_reco ul li{
   width: 49%;
   background-color: #fff;
   margin-right: 10px;
   display: flex;
   justify-content: flex-end;
- }
- .menu_reco ul li .menu {
+}
+.menu_reco ul li .menu {
   width: 45%;
   padding: 10px;
- }
+}
 .menu_reco ul li img{
 width: 100%;
 height: 100%;
+}
+.cafes{
+  max-width: 1100px;
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+.cafes ul{ 
+display: flex;
+justify-content: space-between;
+background-color: #fff;
+text-align: center;
+flex-wrap: wrap;
+padding: 20px;
+}
+.cafes ul li{
+  width: 49%;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.cafes ul li img{
+  width: 20%;
+  height: auto;
+}
+
+.infosection{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.infor{
+  margin-top: 20px;
+}
+.hrdr{
+  display: flex;
+}
+.direc{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.dire{
+  display: flex;
+}
+dt{
+  font-weight: bold;
+}
+dd{
+  margin-bottom: 20px;
+}
+dl{
+  margin-bottom: 20px;
+}
+.map{
+  margin: 80px;
+}
+.map iframe{
+  width: 100%;
+}
+
+
+footer{
+  background-color: #251e19;
+  color: #fff;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li{
+  margin-right: 20px;
+}
+nav ul li:last-child{
+  height: 30px;
+  margin-right: 0;
+}
+nav ul li img{
+  height: 30px;
+  width: auto;
+}
+.point{
+  color: #fff;
+  padding: 0 10px;
+}
+.pointt{
+  color: white;
+  padding: 0% 5px;
 }
