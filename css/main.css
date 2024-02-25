@@ -54,14 +54,14 @@ div,li {
   padding: 50px 10% 10px;
 }
 .back_menu {
-  background-image: url("images/sample_menu_bg.jpg");
+  background-image: url("/images/sample_menu_bg.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .key {
   height: 500px;
-  background: center / cover no-repeat url("../images/sample_key.jpg");
+  background: center / cover no-repeat url("/images/sample_key.jpg");
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
 }
