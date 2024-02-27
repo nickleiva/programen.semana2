@@ -90,6 +90,7 @@ div,li {
   width: 20%;
   border-radius: 50%;
 }
+
 .dc_section {
   display: flex;
   flex-direction: row;
