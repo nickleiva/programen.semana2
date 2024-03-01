@@ -53,15 +53,16 @@ div,li {
 .section_inner {
   padding: 50px 10% 10px;
 }
-.back_menu {
+
+.back_menu{
   background-image: url("../images/sample_menu_bg.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
-
 .key {
-  height: 500px;
   background: center / cover no-repeat url("../images/sample_key.jpg");
+  height: 500px;
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
 }
@@ -133,7 +134,7 @@ div,li {
   padding: 10px;
 }
 .menu_reco ul li img{
-width: 100%;
+width: 55%;
 height: 100%;
 }
 .cafes{
@@ -148,7 +149,7 @@ justify-content: space-between;
 background-color: #fff;
 text-align: center;
 flex-wrap: wrap;
-padding: 20px;
+margin: 20px;
 }
 .cafes ul li{
   width: 49%;
@@ -159,6 +160,9 @@ padding: 20px;
 .cafes ul li img{
   width: 20%;
   height: auto;
+}
+.cafetexto{
+  width: 80%;
 }
 
 .infosection{
@@ -180,6 +184,7 @@ padding: 20px;
 }
 dt{
   font-weight: bold;
+  width: 80px;
 }
 dd{
   margin-bottom: 20px;
